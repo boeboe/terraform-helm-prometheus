@@ -43,7 +43,7 @@ module "prometheus" {
 }
 
 output "prometheus_helm_metadata" {
-  description = "block status of the prometheus prometheusd helm release"
+  description = "block status of the prometheus prometheus helm release"
   value = module.prometheus.prometheus_helm_metadata[0]
 }
 ```
